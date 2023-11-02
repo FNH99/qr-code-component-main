@@ -14,7 +14,23 @@
 
 body {
     background: var(--Light-gray);
-    
+}
+
+article {
+    text-align: center;
+}
+
+h1 {
+    font-size: 17px;
+    margin: 10px;
+    color: var(--Dark-blue);
+    font-weight: 700;
+}
+
+p {
+    font-size: 13px;
+    margin: 10px;
+    color: var(--Grayish-blue);
 }
 
 .container {
@@ -27,32 +43,8 @@ body {
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
 }
 
-.qr-image {
-    aspect-ratio: 1/1;
-    max-width: 250px;
-    background-image: url("/images/image-qr-code.png");
-    background-size: contain;
+img {
+    height: 100%;
+    width: 100%;
     border-radius: 5px;
-
-}
-
-.text {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
-}
-
-.text-top {
-    font-size: 15px;
-    font-weight: 700;
-    color: var(--Dark-blue);
-}
-
-.text-bottom {
-    margin-top: -1px;
-    font-size: 10px;
-    font-weight: 400;
-    color: var(--Grayish-blue);
 }

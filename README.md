@@ -33,17 +33,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Instead of spending time figuring out the exact size of the image, I found that just setting the aspect ratio to 1:1 works great.
+Updated the index.html to have the image first.
 
-```css
-.qr-image {
-    aspect-ratio: 1/1;
-    max-width: 250px;
-    background-image: url("/images/image-qr-code.png");
-    background-size: contain;
-    border-radius: 5px;
-
-}
+```html
+<div class="qr-image">
+        <img src="/images/image-qr-code.png" alt="QR Code linking to Frontend Mentor challenges">
+      </div>
 ```
 ## Author
 
