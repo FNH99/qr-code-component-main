@@ -26,7 +26,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### HTML
 
-Starts with base html template, vscode gives basic html template by typing '!' and add the page title within "<title>":
+Starts with base html template, vscode gives basic html template by typing '!' and add the page title within "title":
 
 ```html
 <!DOCTYPE html>
@@ -42,13 +42,13 @@ Starts with base html template, vscode gives basic html template by typing '!' a
 </html>
 ```
 
-In the <head> element, add the link to the stylesheet for CSS:
+In the "head" element, add the link to the stylesheet for CSS:
 
 ```html
 <link rel="stylesheet" href="style.css">
 ```
 
-To embed a font from google font such as https://fonts.google.com/specimen/Outfit, copy the code to the "<head>":
+To embed a font from google font such as https://fonts.google.com/specimen/Outfit, copy the code to the "head":
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,21 +56,21 @@ To embed a font from google font such as https://fonts.google.com/specimen/Outfi
 <link href="https://fonts.googleapis.com/css2?family=Outfit" rel="stylesheet">
 ```
 
-Within the "<body>" add the "<main>" element to contain the page:
+Within the "body" add the "main" element to contain the page:
 ```html
 <main>
 
 </main>
 ```
 
-from now the code will continue within the "<main>" element. Make a "<div>" to contain the image and the other text and set its class:
+from now the code will continue within the "main" element. Make a "div" to contain the image and the other text and set its class:
 ```html
 <div class="container">
 
   </div>
 ```
 
-Inside this 'container' will be the main content of the page, add another "<div>" and set the class to contain the image:
+Inside this 'container' will be the main content of the page, add another "div" and set the class to contain the image:
 ```html
 <div class="qr-image">
         <img src="/images/image-qr-code.png" alt="QR Code linking to Frontend Mentor challenges">
