@@ -56,6 +56,29 @@ To embed a font from google font such as https://fonts.google.com/specimen/Outfi
 <link href="https://fonts.googleapis.com/css2?family=Outfit" rel="stylesheet">
 ```
 
+Within the <body> add the <main> element to contain the page:
+```html
+<main>
+
+</main>
+```
+
+from now the code will continue within the <main> element. Make a <div> to contain the image and the other text and set its class:
+```html
+<div class="container">
+
+  </div>
+```
+
+Inside this 'container' will be the main content of the page, add another <div> and set the class to contain the image:
+```html
+<div class="qr-image">
+        <img src="/images/image-qr-code.png" alt="QR Code linking to Frontend Mentor challenges">
+</div>
+```
+
+'src' will specify where the page will find the image, the 'alt' attribute gives the image an alternate text if the image cannot be displayed.
+
 ## Author
 
 - Frontend Mentor - [@FNH99](https://www.frontendmentor.io/profile/FNH99)
