@@ -79,6 +79,17 @@ Inside this 'container' will be the main content of the page, add another "div" 
 
 'src' will specify where the page will find the image, the 'alt' attribute gives the image an alternate text if the image cannot be displayed.
 
+Still within the 'container', make an "article" element where the text resides. "h1" will be the most important text, and "p" would be the paragraph under it.
+
+```html
+  <article>
+    <h1>Improve your front-end skills by building projects</h1>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p>
+  </article>
+```
+
 ## Author
 
 - Frontend Mentor - [@FNH99](https://www.frontendmentor.io/profile/FNH99)
