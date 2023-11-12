@@ -90,6 +90,24 @@ Still within the 'container', make an "article" element where the text resides. 
   </article>
 ```
 
+Outside of the 'container' would be the place to put the links. The template are provided by Frontend Mentor.
+
+```html
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="https://github.com/FNH99">FNH99</a>.
+</div>
+```
+
+The template will also give the style for the 'attribution' placed in the 'header'.
+
+```html
+<style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+```
+
 ## Author
 
 - Frontend Mentor - [@FNH99](https://www.frontendmentor.io/profile/FNH99)
